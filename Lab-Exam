@@ -1,0 +1,40 @@
+enequque
+	create new array on the function scope
+	loop until the last index of the main array
+	if index  === 0 insert the input value at index 0
+	else index + 1 insert the main array elements begin with 0 until its length - 1
+
+dequque
+	create newArray
+	loop begin from 1 - main array length - 1
+	insert the elements to newArray
+	change the referance address of main array to newArray
+	return main array
+
+reverse
+	create newArray
+	loop begin from array.length - 1 up to 0
+	insert these elemnts to newArray
+	return new array
+
+isEmpty
+	if the length of array === 0 return true else false
+
+question 2
+	loop begin 0 upto array.length var (i)
+	inner loop begin i + 1 upto array.length var (j)
+	if array of index i + j === input
+	return [i, j]
+
+maxnum
+	create var max = 0
+	loop begin 0 upto array.length var (i)
+	if i > 0 max = array of i
+
+revstr
+	create newArray
+	loop begin from array.length - 1 up to 0
+	insert these elemnts to newArray
+	return new array
+	
+	
