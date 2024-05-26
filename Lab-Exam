@@ -32,9 +32,9 @@ maxnum
 	if i > 0 max = array of i
 
 revstr
-	create newArray
-	loop begin from array.length - 1 up to 0
-	insert these elemnts to newArray
-	return new array
+	create newString (empty)
+	loop begin from string.length - 1 up to 0
+	insert these elemnts to newString
+	return newString
 	
 	
